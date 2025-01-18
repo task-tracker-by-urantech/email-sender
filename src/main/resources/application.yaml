@@ -1,0 +1,21 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: email-sender
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: uranovrg@gmail.com
+    password: klbw jnrn osmd przi
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
