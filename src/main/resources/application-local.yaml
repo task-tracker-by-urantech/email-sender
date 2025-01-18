@@ -10,7 +10,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: uranovrg@gmail.com
-    password: klbw jnrn osmd przi
+    password: przi jnrn osmd klbw
     properties:
       mail:
         smtp:
